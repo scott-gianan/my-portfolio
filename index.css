@@ -1,0 +1,24 @@
+.mylink {
+	text-decoration: none !important;
+
+}
+
+.navbar {
+	background-color: #ECB390;
+}
+
+.project {
+	background-color: #3F4E4F !important;
+}
+
+.introduction {
+	background-color: #94B49F;
+}
+
+#tools {
+	background-color: #94B49F !important;
+}
+
+a:hover {
+	color:  #ECB390 !important;
+}

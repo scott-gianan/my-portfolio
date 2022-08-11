@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capstone - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg nbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">scott-gianan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#project"># project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"># contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tools"># tools</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+    <!-- Intro Start -->
+    <div class="container-fluid introduction">
+      <div class="row justify-content-center align-items-center py-4 py-lg-5" id="landing">
+        <div class="col-md-7 col-lg-5 text-white pl-md-5 py-lg-5">
+          <h1 class="mt-2 text-justify">Hi, I'm Scott.</h1>
+            <p class="text-justify">
+              A registered Mechanical Engineer who's into tech and aspires to be a Full-Stack Web Developer. Enrolled in Zuitt Bootcamp and a proud member of batch-203.
+            </p>
+      </div>
+        <div class="col-10 col-md-3 p-3 py-lg-5">
+          <img src="./images/scott-gianan.jpg" class="rounded-circle img-fluid">
+        </div>
+    </div>
+
+    <!-- Intro End -->
+
+    <!-- Project Start -->
+
+    <div class="row justify-content-center align-items-center project">
+      <h1 class="text-center mt-3 text-light" id="project">Projects</h1>
+        <div class="col-12 col-md-8 col-lg-4 p-2">
+            <a href="https://scott-gianan.github.io/landing-page/" target="_blank"><img class="img-fluid" src="./images/landing-page.png"></a>
+            <h5 class="pt-3 text-light">Landing Page</h5>
+            <p class="text-justify text-light">Before enrolling in Zuitt Bootcamp, I did some self-studied by taking up The Odin Project's course. This is my first big project - a landing page. This was purely written in HTML and CSS Codes.</p>
+        </div>
+    </div>
+
+    <!-- Project End -->
+
+    <!-- Tools Start -->
+    <div class="container-fluid" id="tools">
+      <div class="row">
+        <h1 class="text-center mt-3 text-light">Tools</h1>
+          <div class="d-md-flex align-items-md-center justify-content-md-center">
+             <img class="img-fluid" src="./images/logo-html5.png">
+             <img class="img-fluid" src="./images/logo-css3.png">
+             <img class="img-fluid" src="./images/logo-bootstrap.png">
+             <img class="img-fluid" src="./images/logo-git.png">
+             <img class="img-fluid" src="./images/logo-sublime-text-3.png">
+          </div> 
+      </div>
+    </div>
+    <!-- Tools End -->
+
+    <!-- Message Me Start -->
+    <div class="container text-light d-flex flex-column justify-content-center align-items-center">
+      <h1 id="contact">Contact Me</h1>
+      <div class="col-12 col-md-8 col-xl-4 p-3">
+      <!-- Contact Me Form Start -->
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                  </div>
+
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn mt-3 text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Send
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-dark" id="exampleModalLabel">Message Sent</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-dark">
+                          Once your message have been recieved, I will contact you immediately.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+    </div>
+    <!-- Message Me End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid">
+      <div class="row">
+        <footer class="mt-5 p-3 text-light">
+          <h6 class="text-center">Scott Gianan</h6>
+          <p class="text-center mb-1">Aspiring Full Stack Web Developer</p>
+          <p class="text-center text-light"> <a href="https://www.linkedin.com/in/scott-russell-gianan-784b3b214/" target="_blank" class="mylink text-light">Linkedin</a> | <a href="https://github.com/scott-gianan" target="_blank" class="mylink text-light">Github</a></p>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Footer End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
